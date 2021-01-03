@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter 4</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="chapter04-project03.css" />
+</head>
+<body>
+   <form method = "get" action = "http://www.randyconnolly.com/tests/process.php">
+      <fieldset>
+          <legend>Photo Details</legend>
+          <table>
+             <tr>
+                <td colspan = "2">
+                  <p>
+                     <label>Title<br/></label>
+                     <input type = "text" name = "title" size = "120">
+                  </p>
+                  <p>
+                     <label>Description<br/></label>
+                     <textarea id = "description" name = "description" rows = "10" cols = "130"></textarea>
+                  </p>
+                </td>
+             </tr>
+
+             <tr>
+                <td class = "TopLeftBox">
+                   <p class = "continent">
+                      <label>Continent</label><br/>
+                      <select name = "continent">
+                         <option value="" selected disabled hidden >Choose continent</option>
+                         <option>Africa</option>
+                         <option>Asia</option>
+                         <option>Europe</option>
+                         <option>Oceania</option>
+                         <option>North America</option>
+                         <option>South America</option>
+                      </select>
+                   </p>
+                   <p class = "country">
+                      <label>Country</label><br/>
+                      <select name = "country"> 
+                         <option selected disabled hidden>Chooose country</option>
+                         <optgroup label = "Africa">
+                            <option>Egypt</option>
+                            <option>Morocco</option>
+                            <option>Nigeria</option>
+                         </optgroup>
+                         <optgroup label = "Asia">
+                           <option>Republic of Korea</option>
+                           <option>Japan</option>
+                           <option>China</option>
+                        </optgroup>
+                        <optgroup label = "Europe">
+                           <option>United Kingdom</option>
+                           <option>France</option>
+                           <option>Italy</option>
+                        </optgroup>
+                        <optgroup label = "Oceania">
+                           <option>New Zealand</option>
+                           <option>Australia</option>
+                        </optgroup>
+                        <optgroup label = "North America">
+                           <option>Canada</option>
+                           <option>United states of America</option>
+                        </optgroup>
+                        <optgroup label = "South America">
+                           <option>Brazil</option>
+                           <option>Argentina</option>
+                           <option>Chile</option>
+                        </optgroup>
+                      </select>
+                   </p>
+                   <p>
+                     <label>City<br/></label>
+                     <input type = "text" name = "city" />
+                  </p>
+                </td>
+                <td class = TopRightBox>
+                   <div class = "Copyright">
+                      <label>Copyright?</label><br/>
+                      <input type = "radio" name = "copyright" value = "1"> All rights reserved<br/>
+                      <input type = "radio" name = "copyright" value = "2" checked> Creative Commons
+                   </div>
+                   <div class = "Common">
+                     <label>Creative Commons Types</label><br/>
+                     <input type = "checkbox" name = "cc"> Attribution<br/>
+                     <input type = "checkbox" name = "cc" checked> Noncommercial<br/>
+                     <input type = "checkbox" name = "cc"> No Derivative Works<br/>
+                     <input type = "checkbox" name = "cc" checked> Share Alike
+                  </div>
+                </td>
+             </tr>
+             <tr>
+                <td colspan="2">
+                   <div id = "acception">
+                      I accept the software license <input type = "checkbox" name = "accept"><br/>
+                   </div>
+                </td>
+             </tr>
+             <tr>
+                <td>
+                   <p>
+                      <label>Rate this photo</label><br/>
+                      <input type = "number" min = "1" max = "5" name = "rate" value = "2"/>
+                   </p>
+                   <p>
+                      <label>Color Collection</label><br/>
+                      <input type = "color" name = "color" value = "#ff0000">
+                   </p>
+                </td>
+                <td>
+                   <div class = "Bottom">
+                      <p>
+                        <label>Date Taken</label><br/>
+                        <input type = "date" name = "date">
+                      </p>
+                      <p>
+                        <label>Time</label><br/>
+                        <input type = "time" name = "time">
+                      </p>
+                   </div>
+                </td>
+             </tr>
+             <tr class = "btn">
+                <td align = "right">
+                   <input type = "submit" value = "Submit" class = "submitBtn">
+                </td>
+                <td>
+                  <input type = "reset" value = "Clear Form", class = "resetBtn">
+               </td>
+             </tr>
+          </table>
+      </fieldset>
+   </form>
+</body>
+</html>

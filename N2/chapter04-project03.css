@@ -1,0 +1,94 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+   
+   margin-top: 2em;
+
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+div{
+   border: solid 1pt lightblue;
+   padding: 5px;
+   margin: 5px;
+} 
+
+fieldset legend{
+   text-align: center;
+   font-weight: bold;
+
+   background-color: rgb(204, 255 , 255);
+
+
+   padding-left: 300px;
+   padding-right: 300px;
+}
+
+fieldset{
+   border-collapse: collapse;
+   border: solid 2pt lightblue;
+}
+
+p title{
+   width: 500px;
+}
+
+.TopLeftBox{
+   vertical-align: top;
+   padding-top: 5px;
+}
+
+.TopRightBox{
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+}
+
+.continent{
+   padding-bottom: 10px;
+}
+
+.country{
+   padding-bottom: 10px;
+}
+
+#acception{
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+   width: 920px;
+
+   border: 0px;
+   background-color: rgb(204, 255 , 255);
+}
+
+.submitBtn{
+   padding: 8px 30px;
+   margin-right: 10px;
+
+   border-radius: 10%;
+   border-color: navy;
+
+   font-size: 20px;
+   color: white;
+
+   background-color: cornflowerblue;
+}
+
+.resetBtn{
+   padding: 8px 30px;
+   margin-right: 10px;
+
+   border-radius: 8%;
+   border-color: navy;
+
+   font-size: 20px;
+   color: white;
+
+   background-color: cornflowerblue;
+}
