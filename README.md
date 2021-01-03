@@ -1,7 +1,16 @@
 # N1
+## 브라우저 창 크기에 따라서 조절
 <img width="1659" alt="N1 #1" src="https://user-images.githubusercontent.com/46343092/103477898-6ff48c00-4e06-11eb-8097-4cf2777ba5b7.png">
 
 <img width="830" alt="N1 #2" src="https://user-images.githubusercontent.com/46343092/103477901-74b94000-4e06-11eb-92e7-2d7364719354.png">
+
+# N2
+
+# N3
+
+# N4
+
+# N5
 
 # project1
 ## 초기 화면
