@@ -5,6 +5,10 @@
 <img width="830" alt="N1 #2" src="https://user-images.githubusercontent.com/46343092/103477901-74b94000-4e06-11eb-92e7-2d7364719354.png">
 
 # N2
+<img width="1174" alt="N2 #2" src="https://user-images.githubusercontent.com/46343092/103478051-851dea80-4e07-11eb-875a-5ddd99be33ff.png">
+
+## 보낸 데이터 확인
+<img width="1286" alt="스크린샷 2020-10-22 오전 5 15 42" src="https://user-images.githubusercontent.com/46343092/103478047-8222fa00-4e07-11eb-84d8-e7771e09a856.png">
 
 # N3
 
