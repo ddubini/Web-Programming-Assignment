@@ -1,3 +1,8 @@
+# N1
+<img width="1659" alt="N1 #1" src="https://user-images.githubusercontent.com/46343092/103477898-6ff48c00-4e06-11eb-8097-4cf2777ba5b7.png">
+
+<img width="830" alt="N1 #2" src="https://user-images.githubusercontent.com/46343092/103477901-74b94000-4e06-11eb-92e7-2d7364719354.png">
+
 # project1
 ## 초기 화면
 <img width="1042" alt="1-1" src="https://user-images.githubusercontent.com/46343092/103477659-4cc8dd00-4e04-11eb-88d5-ac49cf3b6239.png">
