@@ -1,0 +1,196 @@
+header, footer, nav, div, p, body {
+   font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+   font-size: 1em;
+}
+
+header {
+   background-color: rgb(63, 159, 217);
+   height: 3em;   
+}
+header .brand {
+   font-family: Vendana, Arial, sans-serif;
+   
+   padding: 8px 20px 12px;
+   margin-left: 3em;
+   
+   float: left;
+
+   font-size: 1.5em;
+   font-weight: bold;
+   line-height: 1;
+   color: #f5f5f5;
+   text-decoration: none;    
+}
+
+header nav {
+   margin: 0em 1em 0 0;   
+   padding-top: 0.8em;
+}
+
+header ul {
+   list-style: none;
+   margin:0;
+   padding:0;
+}
+header li {
+   float: left;
+   padding: 0 1em;
+}
+header li a:link {
+   color: #f5f5f5;
+   text-decoration: none;   
+}
+
+/* Main structure */
+
+div#container {
+   position: relative;
+}
+#main {
+   margin: 0 30em 0 16em;
+}
+
+aside {
+   position: absolute;
+   float: right;
+   right: 0;
+   top: 0;
+   width: 19em;
+}
+#rail {
+   position: absolute;
+   float: left;
+   top: 0;
+   left: 0;
+   width: 15em;
+}
+
+/* other common classes */
+
+.well, .alert {
+
+   margin-bottom: 2em;
+   padding: 1em;
+}
+.well {   
+   background-color: #f5f5f5;
+   border: 1px solid #eee;
+   border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.well h3 {
+   background-color: #b6d1f2;
+   padding: 1em;
+}
+
+.alert {
+   background-color: #edebe1;
+   border-color: #e0d9cb;
+   color: #817b58;
+}
+
+.breadcrumb {
+   padding: 0.5em 1em;
+
+   list-style: none;
+   background-color: #fbfbfb;
+}
+
+/* main styles */
+#main {
+   padding: 0.5em 0.75em;
+}
+#main h2 {
+   padding-top: 1em;
+   font-size: 1.5em;
+}
+#main h4 {
+   padding-top: 1.5em;
+   font-size: 1.2em;
+}
+#main th {
+   text-align: left;
+}
+#main table {
+   display: inline-block;
+}
+
+
+#main #yourCompany {
+   float: left;
+   margin-bottom: 1.5em;
+   font-size: 0.8em;
+}
+#main #client {
+   float: right;
+   font-size: 0.8em;
+}
+#main hr {
+   clear: both;
+}
+.bigButton {
+   display: inline-block;
+   margin-top: 1em;
+   padding: 1em 2.5em;
+   background-color: rgb(63, 159, 217);
+   text-align: center;
+   color: #f5f5f5;
+   text-decoration: none;    
+}
+
+
+/* left rail styles */
+
+#rail nav {
+}
+#rail nav  ul {
+   list-style-type:none;
+   font-size: 1.1em;
+}
+#rail nav  ul li {
+   margin-bottom: 0.3em;
+}
+
+/* right aside styles */
+
+ul#changeList, ul#sellersList, ul#messageList {
+   background-color: white;
+   list-style-type:none;  
+   
+}
+ul#changeList li {   
+   overflow: auto;  
+   padding-top: 1em;   
+}
+ul#changeList li  p{ 
+   padding-top: 0.5em;
+}
+ul#changeList li span {
+   float: left;
+   min-width: 1.75em;
+   text-align: right;
+   font-size: 2em;
+   padding: 0 1em 0 0;
+   color: #616466;
+   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+ul#sellersList li, ul#messageList li {   
+   overflow: auto;  
+   padding: 1em 0.25em 0 0;   
+   font-size: 0.75em;
+}
+ul#sellersList img{
+   float: left;
+}
+ul#sellersList p {
+   padding-top: 1.5em;
+}
+
+ul#messageList  img {
+   float: left;
+   padding-right: 0.5em;
+}
+#messageList li  p {
+   font-size: 0.9em;
+   padding: 0.3em 0.25em;
+}
