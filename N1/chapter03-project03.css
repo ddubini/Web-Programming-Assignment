@@ -1,0 +1,81 @@
+body{
+    background-image: url(images/art-background4.jpg);
+    background-size: 100%;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+header{
+    background-color: white;
+
+    width: 500px;
+    height: 100px;
+
+    line-height: 200%;
+
+    margin-bottom: 100px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+h1{
+    font-family: 'Six Caps', Verdana, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    opacity : 80%;
+}
+h2{
+    font-size: 17px;
+}
+
+
+article{
+    background-color: rgb(255, 255, 255, 0.4);
+    position: fixed;
+    width: 550px;
+}
+
+article h2{
+
+    background-color: rgb(255, 255, 255, 0.2);
+    font-family: sans-serif, Verdana, Arial, Helvetica;
+    font-size: 23px;
+
+    margin: 0px;
+    padding: 10px;
+}
+
+article p{
+    font-family: serif, Verdana, Arial, Helvetica;
+    font-size: 23px;
+    font-weight: bold;
+
+    margin: 0px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article p#timeline{
+    width: 400px;
+    background-color: rgb(0, 0, 0, 0.4);
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+article footer{
+    width: 550px;
+    background-color: rgb(255, 255, 255, 0.9);
+    position: fixed;
+    padding-top: 15px;
+}
+
+footer a{
+    padding-left: 20px;
+}
